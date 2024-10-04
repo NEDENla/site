@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(45deg, #007BFF, #00aaff); /* Mavi geçişli arka plan */
+    padding: 50px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #007BFF; /* Mavi buton */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000; /* Butona hover yapıldığında siyah */
+    transform: scale(1.1);
+}
+
+#mainContent {
+    padding: 50px;
+    background-color: #ffffff; /* Hakkımda bölümünün arka planı beyaz */
+    color: #000000; /* Hakkımda bölümündeki metin rengi siyah */
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
